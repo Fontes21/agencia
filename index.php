@@ -33,9 +33,9 @@
 
          if (isset($_GET["agencia"]))
          {
-             $conta = new conta();
+            $conta = new conta();
              
-             conta->create($_GET["numero"], $_GET["agencia"], $_GET["proprietario"], $_GET["saldo"], $_GET["limite"]);
+            conta->create($_GET["numero"], $_GET["agencia"], $_GET["proprietario"], $_GET["saldo"], $_GET["limite"]);
          }
     ?>
 

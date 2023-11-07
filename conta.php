@@ -11,11 +11,11 @@
 
         public function create($_numero, $_agencia, $_proprietario, $_saldo, $_limite)
         {
-            $this->nome = $_numero;
-            $this->raca = $_agencia;
-            $this->cor = $_proprietario;
-            $this->peso = $_saldo;
-            $this->idade = $_limite;
+            $this->numero = $_numero;
+            $this->agencia = $_agencia;
+            $this->proptietario = $_proprietario;
+            $this->saldo = $_saldo;
+            $this->limite = $_limite;
         }
         
         public function setnumero($numero) 
@@ -42,5 +42,17 @@
         {
             $this->limite = $limite;
         }       
+    
+        public function depositar()
+        {
+            echo "$this->nome recebe um valor e acrescenta no saldo;";
+     
+            public function sacar()
+            {
+             echo $this->nome == $-numero ? "$this->nome   recebe um valor e se a soma do saldo com limite for superior a 0 confirme o saque, reduzindo o valor do saldo pelo valor informado." : 
+                                               
+            }
+     
+        }
     }
 ?>
